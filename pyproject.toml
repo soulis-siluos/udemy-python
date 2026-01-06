@@ -6,9 +6,9 @@ readme = "README.md"
 dependencies = []
 
 [project.scripts]
-udemy-python = "packages.udemy_python:app"
-udemy-c1-e1  = "packages.udemy_c1_e1:app"
-wil1         = "packages.wil1:app"
+udemy-python = "exercises.udemy_python:app"
+udemy-c1-e1  = "exercises.udemy_c1_e1:app"
+wil1         = "exercises.wil1:app"
 
 [build-system]
 requires = ["hatchling"]
