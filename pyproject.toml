@@ -1,0 +1,15 @@
+[project]
+name = "udemy-python"
+version = "0.1.0"
+requires-python = ">=3.11"
+readme = "README.md"
+dependencies = []
+
+[project.scripts]
+udemy-python = "packages.udemy_python:app"
+udemy-c1-e1  = "packages.udemy_c1_e1:app"
+wil1         = "packages.wil1:app"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
